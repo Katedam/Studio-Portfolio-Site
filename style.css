@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch|Kodchasan');
+body {
+    background-image: url(images/landscape-1.jpg);
+    font-family: 'Kodchasan', sans-serif;
+
+}
+h1 {
+    color: #667c6b;
+}
+.shaded-div {
+    background-color: rgba(247, 218, 216, 0.6);
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 75%;
+    z-index: 5;
+}
+label {
+    display: block;
+}
+a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+#social-links {
+    background-color: rgba(242, 255, 147, 0.6);
+    color: white;
+    margin-bottom: 0;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+}
+#social-links a {
+}
+.unhidden {
+    display: block;
+}
