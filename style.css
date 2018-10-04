@@ -5,7 +5,48 @@ body {
 
 }
 h1 {
+    background-color: rgba(241, 250, 115, 0.7);
     color: #667c6b;
+    margin: 0;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+.drop-down {
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 35px;
+}
+.drop-down:hover {
+    background-color: rgba(241, 250, 115, 0.7);
+    border-radius: 30px;
+}
+.drop-down-content {
+    display: none;
+    position: relative;
+    min-width: 160px;
+    z-index: 1;
+}
+.drop-down-content a {
+    text-align: center;
+    display: block;
+    color: black;
+    padding: 5px;
+}
+.drop-down-content a:hover {
+    background-color: rgba(241, 250, 115, 0.7);
+    border-radius: 30px;
+}
+.drop-menu:hover .drop-down-content {
+    display: block;
+}
+.contact:hover .show-contact-form {
+    display: block;
 }
 .shaded-div {
     background-color: rgba(247, 218, 216, 0.6);
@@ -27,19 +68,16 @@ a {
     margin-bottom: 10px;
     text-decoration: none;
 }
-#social-links {
-    background-color: rgba(242, 255, 147, 0.6);
-    color: white;
-    margin-bottom: 0;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 0;
+.social-links {
+    display: inline-block;
+    margin-top: 20px;
 }
-#social-links a {
+.hidden {
+    display: none;
 }
 .unhidden {
     display: block;
+}
+.icon {
+    width: 50px;
 }
