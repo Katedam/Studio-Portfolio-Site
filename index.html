@@ -3,9 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kate Dameron - Studio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Kate Dameron</h1>
+    <div class="shaded-div">
+        <nav>
+            <section class="drop-menu">
+                <h4 class="drop-down">galleries</h4>
+                <aside class="drop-down-content">
+                    <a href="galleries.html">drawings</a>
+                    <a href="galleries.html">clay</a>
+                    <a href="galleries.html">fiber/mixed-media</a>
+                </aside>
+            </section>
+            <h4 id="about" class="drop-down">about</h4>
+            <p id="show-about" class="drop-down-content hidden">
+                This is where I'll tell my bio 
+            </p>
+            <h4 id="contact" class="drop-down">contact</h4>
+            <form action="mailto:katerj33@gmail.com" method="post" enctype="text/plain" id="show-form" class="drop-down-content hidden">
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="email">Email</label>
+                <input type="text" id="email">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea><br>
+                <input type="submit" value="Send">
+                <input type="reset" value="reset">
+            </form>
+            <a class="social-links" href="https://www.instagram.com/katedameron/"><img class="icon" src="images/instagram-icon.png" alt="instagram logo image"></a>
+            <a class="social-links" href="https://twitter.com/katerj"><img class="icon" src="images/twitter-icon.png" alt="twitter icon image"></a>
+        </nav>
+    </div>
+    <!-- <div id="social-links">
+       
+    </div> -->
+    <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
